@@ -8,21 +8,21 @@
   ],
   "scripts": {
     "build": "dotenv -- turbo run build",
-    "dev": "dotenv -- turbo run dev --parallel",
+    "dev": "dotenv -- turbo dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
     "eslint-config-custom": "*",
     "prettier": "latest",
-    "turbo": "1.10.14"
+    "turbo": "1.10.4",
+    "dotenv-cli": "^7.3.0"
   },
   "engines": {
     "node": ">=14.0.0"
   },
   "packageManager": "npm@8.19.2",
   "dependencies": {
-    "dotenv-cli": "^7.3.0",
     "prisma": "^5.3.1"
   }
 }
