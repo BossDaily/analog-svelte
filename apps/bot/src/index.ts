@@ -23,7 +23,11 @@ const client = new SapphireClient({
 		GatewayIntentBits.MessageContent
 	],
 	partials: [Partials.Channel],
-	loadMessageCommandListeners: true
+	loadMessageCommandListeners: true,
+	api: {
+	
+
+	}
 });
 
 const main = async () => {

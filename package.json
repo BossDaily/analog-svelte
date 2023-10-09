@@ -23,6 +23,6 @@
   },
   "packageManager": "npm@8.19.2",
   "dependencies": {
-    "prisma": "^5.3.1"
+    "prisma": "^5.4.2"
   }
 }
